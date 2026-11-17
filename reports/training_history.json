@@ -1,0 +1,37 @@
+{
+  "architecture": "EfficientNetB0 Transfer Learning (V2)",
+  "num_classes": 9,
+  "day_training_samples": 5400,
+  "night_training_images": 144,
+  "night_validation_images": 36,
+  "night_repeats_per_epoch": 7,
+  "training_samples_per_epoch": 6408,
+  "batch_size": 64,
+  "stage1_epochs": 6,
+  "stage2_epochs": 6,
+  "duration_minutes": 26.02,
+  "checkpoint_validation_camera": "C005 night holdout",
+  "reference_validation_camera": "C013 night/day",
+  "selected_checkpoint_stage": "stage1",
+  "selected_checkpoint_val_loss": 1.1237868070602417,
+  "stage1_val_accuracy": [
+    0.3055555522441864,
+    0.3888888955116272,
+    0.4722222089767456,
+    0.5555555820465088,
+    0.4444444477558136,
+    0.5277777910232544
+  ],
+  "stage2_val_accuracy": [
+    0.5555555820465088,
+    0.4166666567325592,
+    0.5,
+    0.5,
+    0.4444444477558136
+  ],
+  "final_val_c005_night_accuracy": 0.5277777910232544,
+  "final_val_c005_night_loss": 1.1237868070602417,
+  "reference_val_c013_night_accuracy": 0.5611110925674438,
+  "reference_val_c013_day_accuracy": 0.6083333492279053,
+  "reference_val_c013_day_loss": 0.9916179180145264
+}

@@ -1,0 +1,30 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Keras & Matplotlib temporary caches
+.cache/
+.keras/
+
+# The all-sky training dataset is several gigabytes and is managed separately.
+data/GOA-ALLSKY/
+
+# Runtime-generated observation history can contain local image metadata.
+data/sky_history.json
+reports/sky_observation_history.json
+sky_report_*.json
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
